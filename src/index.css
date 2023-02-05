@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .homeButton {
+    @apply p-5 hover:border rounded-full mx-4 text-3xl hover:border-black active:border transition ease-out
+     duration-300 border border-slate-500;
+  }
+  .contactInput {
+    @apply px-6 py-4 rounded-sm outline-none bg-slate-400 placeholder-slate-700;
+  }
+  .active {
+    @apply p-5  rounded-full mx-4 text-3xl border-black bg-slate-700 border;
+  }
+}

@@ -3,13 +3,17 @@ import Project from "../components/Project";
 function Projects() {
   return (
     <div
-      className=" h-screen flex flex-col justify-center items-center"
+      className="  flex flex-col justify-center items-center h-screen"
       id="project"
     >
-      <h3 className="  text-2xl tracking-[20px] uppercase">My Projects</h3>
-      <div className=" flex gap-4 pt-[50px] pb-11">
+      <h3 className="  text-2xl tracking-[20px] uppercase text-center">
+        My Projects
+      </h3>
+      <div className=" md:w-4/5 flex space-x-5 p-10 snap-x snap-mandatory overflow-x-scroll w-full  ">
         <Project />
         <Project />
+        <Project />
+
         <Project />
       </div>
     </div>

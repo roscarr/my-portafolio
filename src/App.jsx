@@ -9,13 +9,15 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-    <div className=" bg-slate-600 text-white ">
+    <div className=" bg-slate-600 text-white h-auto w-full  ">
       <Header />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div>
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
       <Footer />
     </div>
   );

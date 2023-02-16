@@ -7,17 +7,17 @@ function Project() {
       <img
         src="https://t-position.com/wp-content/uploads/2010/01/Paginas-web.jpg"
         alt=""
-        className=" h-[200px]"
+        className=" h-[100px] md:h-[200px]"
       />
       <div className=" space-y-3">
-        <div className=" flex items-center justify-between w-[260px]">
+        <div className=" flex items-center justify-between md:w-[260px]">
           <h4>Social Media</h4>
           <div className=" flex space-x-3 text-2xl">
             <BsGithub to="https://www.linkedin.com/in/oscar-garcia-70529016a/" />
             <BiGlobe />
           </div>
         </div>
-        <div className=" w-[300px]">
+        <div className=" w-[200px]  md:w-[300px]">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
             necessitatibus? Labore, voluptatum atque quos, magni eveniet

@@ -5,7 +5,7 @@ import { BsBriefcase, BsClipboardData } from "react-icons/bs";
 
 function Footer() {
   return (
-    <footer className=" flex items-center justify-center sticky bottom-[50px] ">
+    <footer className=" flex items-center justify-center bottom-8 sticky ">
       <Link
         to="home"
         className="homeButton"

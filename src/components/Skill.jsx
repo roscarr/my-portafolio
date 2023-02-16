@@ -1,8 +1,12 @@
-function Skill() {
+import { motion } from "framer-motion";
+function Skill({ diretionLeft }) {
   return (
     <div className=" relative flex items-center justify-center cursor-pointer">
-      <img
-        className=" w-[50px] h-[50px] object-cover rounded-full md:w-[80px] md:h-[80px]"
+      <motion.img
+        initial={{ x: diretionLeft ? -100 : 100, opacity: 0 }}
+        transition={{ duration: 1.5 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        className=" w-[60px] h-[60px] object-cover rounded-full md:w-[80px] md:h-[80px]"
         src="https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png"
         alt=""
       />

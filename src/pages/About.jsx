@@ -35,13 +35,9 @@ function About() {
             Here is little litle background
           </h2>
           <p className=" md:text-base text-xs">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-            voluptates accusantium facilis, architecto vero distinctio laborum
-            ab, in veniam similique ratione obcaecati! Ipsam eos ab magnam
-            tempora pariatur? Odio, et! Laborum deleniti ad esse est earum, quae
-            unde quas facere in animi voluptatum illo numquam quisquam, cumque,
-            autem dolores officiis eius porro quos inventore sit! Voluptatem
-            aliquid delectus cumque aut!
+            Proactivo, responsable y con la capacidad de trabajar en equipo.
+            Amplia capacidad de razonamiento matemático y lógico. Disposición
+            para el aprendizaje de las cosas que desconozco..
           </p>
         </motion.div>
       </div>

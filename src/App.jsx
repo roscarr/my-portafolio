@@ -9,15 +9,17 @@ import Projects from "./pages/Projects";
 
 function App() {
   return (
-    <div className=" bg-slate-600 text-white h-auto w-full  ">
+    <div className=" bg-slate-600 text-white  ">
       <Header />
-      <div>
+
+      <div className=" overflow-x-hidden">
         <Home />
         <About />
         <Skills />
         <Projects />
         <Contact />
       </div>
+
       <Footer />
     </div>
   );

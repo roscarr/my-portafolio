@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-function Skill({ diretionLeft }) {
+function Skill({ diretionLeft, logo, numero }) {
   return (
     <div className=" relative flex items-center justify-center cursor-pointer">
       <motion.img
@@ -7,7 +7,7 @@ function Skill({ diretionLeft }) {
         transition={{ duration: 1.5 }}
         whileInView={{ opacity: 1, x: 0 }}
         className=" w-[60px] h-[60px] object-cover rounded-full md:w-[80px] md:h-[80px]"
-        src="https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png"
+        src={logo}
         alt=""
       />
       <div
@@ -17,7 +17,7 @@ function Skill({ diretionLeft }) {
       >
         <div className="  ">
           <p className=" text-black hover:opacity-80 font-bold md:text-2xl text-sm">
-            100%
+            {numero}%
           </p>
         </div>
       </div>

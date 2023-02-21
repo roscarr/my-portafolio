@@ -1,7 +1,7 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 function Home() {
   const [text] = useTypewriter({
-    words: ["my name is oscar", "Full Stack Developer.", "UI Designer."],
+    words: ["my name is Oscar", "Frontend Developer.", "React expert."],
     loop: true,
 
     delaySpeed: 2000,
@@ -17,7 +17,7 @@ function Home() {
         alt=""
       />
       <div className=" flex flex-col justify-center items-center">
-        <h2 className=" font-light text-lg">frontend developer</h2>
+        <h2 className=" font-light text-lg">web developer</h2>
         <h1 className=" text-5xl md:text-6xl font-bold text-center">
           <span>{text}</span>
           <Cursor

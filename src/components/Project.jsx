@@ -1,27 +1,24 @@
 import { BiGlobe, BiGlobeAlt } from "react-icons/bi";
 import { BsGithub } from "react-icons/bs";
 
-function Project() {
+function Project({ title, urlgit, urlpag, test, img }) {
   return (
     <div className=" bg-slate-700 p-10 max-w-xl space-y-5">
-      <img
-        src="https://t-position.com/wp-content/uploads/2010/01/Paginas-web.jpg"
-        alt=""
-        className=" h-[100px] md:h-[200px]"
-      />
+      <img src={img} alt="" className=" h-[100px] md:h-[200px]" />
       <div className=" space-y-3">
         <div className=" flex items-center justify-between md:w-[260px]">
-          <h4>Social Media</h4>
+          <h4>{title}</h4>
           <div className=" flex space-x-3 text-2xl">
-            <BsGithub to="https://www.linkedin.com/in/oscar-garcia-70529016a/" />
-            <BiGlobe />
+            <a href={urlgit}>
+              <BsGithub />
+            </a>
+            <a href={urlpag}>
+              <BiGlobe />
+            </a>
           </div>
         </div>
         <div className=" w-[200px]  md:w-[300px]">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
-            necessitatibus? Labore, voluptatum atque quos, magni eveniet
-          </p>
+          <p>{test}</p>
         </div>
       </div>
     </div>

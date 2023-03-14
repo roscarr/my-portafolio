@@ -18,7 +18,7 @@ function About() {
           }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
-          src="https://t4.ftcdn.net/jpg/00/97/58/97/360_F_97589769_t45CqXyzjz0KXwoBZT9PRaWGHRk5hQqQ.jpg"
+          src="https://media.licdn.com/dms/image/D5603AQG__p7HA9Lp6A/profile-displayphoto-shrink_800_800/0/1678565432879?e=1683763200&v=beta&t=U-PmuBpM7sNyyAFr4nGVdP8ZiQFgmmTxVRpY2pCRrCc"
           alt=""
           className=" rounded-full w-[150px] h-[150px] object-cover md:rounded-md md:w-[500px] md:h-[400px]"
         />
@@ -35,9 +35,10 @@ function About() {
             Here is little litle background
           </h2>
           <p className=" md:text-base text-xs">
-            Proactivo, responsable y con la capacidad de trabajar en equipo.
-            Amplia capacidad de razonamiento matemático y lógico. Disposición
-            para el aprendizaje de las cosas que desconozco..
+            Proactive, responsible and with the ability to work in a team.
+            Strong mathematical and logical reasoning skills. Great knowledge
+            and experience with projects related to frontend design with the
+            React framework. Willingness to learn things I don't know.
           </p>
         </motion.div>
       </div>

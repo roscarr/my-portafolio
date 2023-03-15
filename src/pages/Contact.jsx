@@ -30,20 +30,20 @@ function Contact() {
       <h3 className=" text-2xl pt-10 uppercase tracking-[20px] md:pb-8 pb-4">
         Contact Me
       </h3>
-      <div className=" md:space-y-2 pb-[100px] ">
-        <h4 className=" font-bold ">i got just what you need</h4>
+      <div className=" md:space-y-4 pb-[100px]  ">
+        <h4 className=" font-bold pb-3  ">i got just what you need</h4>
         <div>
-          <div className=" flex  justify-center items-center space-x-5 ">
+          {/*<div className=" flex  justify-center items-center space-x-5 ">
             <BiPhone className=" h-7 w-7 animate-pulse" />
-            <p>4125331281</p>
-          </div>
+            <p>5331281</p>
+  </div>*/}
           <div className=" flex justify-center items-center space-x-5">
             <BiEnvelope className=" h-7 w-7 animate-pulse" />
             <p>maicro2907@gmail.com</p>
           </div>
           <div className=" flex justify-center items-center space-x-5 pb-4">
             <BiMap className=" h-7 w-7 animate-pulse" />
-            <p>123 develope lane</p>
+            <p>Venezuela</p>
           </div>
         </div>
         <form
@@ -57,12 +57,14 @@ function Contact() {
               placeholder="name"
               className="contactInput"
               name="from_name"
+              required
             />
             <input
               type="email"
               name="user_email"
               placeholder="email"
               className="contactInput"
+              required
             />
           </div>
           <input
@@ -70,11 +72,13 @@ function Contact() {
             placeholder="Subject"
             className="contactInput"
             name="subject"
+            required
           />
           <textarea
             placeholder="Message"
             className="contactInput"
             name="message"
+            required
           />
           <input
             className=" py-5 px-10 bg-[#FAD6A5] text-[#796952] cursor-pointer"

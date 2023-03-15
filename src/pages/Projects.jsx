@@ -34,9 +34,7 @@ function Projects() {
 
         <Project
           img="https://t-position.com/wp-content/uploads/2010/01/Paginas-web.jpg"
-          urlgit=""
           title="future projects"
-          urlpag=""
           test="Development of future projects."
         />
       </div>

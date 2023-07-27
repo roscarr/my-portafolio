@@ -18,7 +18,7 @@ function About() {
           }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
-          src="https://media.licdn.com/dms/image/D5603AQG__p7HA9Lp6A/profile-displayphoto-shrink_800_800/0/1678565432879?e=1683763200&v=beta&t=U-PmuBpM7sNyyAFr4nGVdP8ZiQFgmmTxVRpY2pCRrCc"
+          src="image/20230425_232916.jpg"
           alt=""
           className=" rounded-full w-[150px] h-[150px] object-cover md:rounded-md md:w-[500px] md:h-[400px]"
         />
@@ -32,7 +32,7 @@ function About() {
           className=" flex flex-col justify-center items-center px-8"
         >
           <h2 className=" text-2xl pb-5 text-center">
-            Here is little litle background
+            Here is little background
           </h2>
           <p className=" md:text-base text-xs">
             Proactive, responsible and with the ability to work in a team.

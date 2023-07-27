@@ -13,8 +13,8 @@ function Home() {
     >
       <img
         className=" rounded-full w-[200px] h-[200px] object-cover"
-        src="https://media.licdn.com/dms/image/D5603AQG__p7HA9Lp6A/profile-displayphoto-shrink_800_800/0/1678565432879?e=1683763200&v=beta&t=U-PmuBpM7sNyyAFr4nGVdP8ZiQFgmmTxVRpY2pCRrCc"
-        alt=""
+        src="image/fotoperfi.png"
+        alt="perfil"
       />
       <div className=" flex flex-col justify-center items-center">
         <h2 className=" font-light text-lg">web developer</h2>
